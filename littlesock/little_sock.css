@@ -136,6 +136,51 @@ p {
     transform: scale(1.05);
 }
 
+/* Footer Styles */
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #6C63FF;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+}
+
+.footer-info h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-social .social-icon {
+    color: #6C63FF;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-social .social-icon:hover {
+    color: #FFD369;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .profile-section {
