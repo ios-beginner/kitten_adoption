@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Looking to adopt a kitten? We have loving kittens ready to find their forever homes. Visit us to find the perfect companion today!">
+    <meta name="keywords" content="kitten adoption, adopt a kitten, kittens for adoption, kitten rescue, find a kitten">
+    <meta name="author" content="Kitten Rescue Center">
+    <title>Adopt a Kitten - Find Your Purrfect Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Available Kittens</a></li>
+                <li><a href="#">Adoption Process</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Adopt a Kitten Today</h1>
+            <p>Your purrfect companion is waiting for you.</p>
+            <a href="#available-kittens" class="cta-button">See Available Kittens</a>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="intro">
+            <h2>Adopt a Kitten from Our Loving Shelter</h2>
+            <p>Looking to bring home a new furry friend? We have a variety of adorable kittens waiting to find their forever homes. Adopt a kitten today and provide them with the love and care they deserve. Our kitten adoption process is simple and ensures every kitten finds the perfect family.</p>
+        </section>
+
+        <!-- Available Kittens Section -->
+        <section id="available-kittens">
+            <h2>Meet Our Kittens</h2>
+            <div class="kitten-grid">
+                <div class="kitten-card">
+                    <img src="littlesock/IMG_7229.jpg" alt="Tabby kitten Little Sock available for adoption">
+                    <h3>Little Sock</h3>
+                    <p>Age: 18 weeks</p>
+                    <p>Little Sock is a curious and affectionate kitten who loves both exploring the world and your snuggles.</p>
+                    <a href="littlesock/little_sock.html" class="adopt-button">Adopt Little Sock</a>
+                </div>
+                <!-- Add more kittens here -->
+            </div>
+            <a href="#" class="cta-button">See All Available Kittens</a>
+        </section>
+
+        <!-- Adoption Process Section -->
+        <section id="adoption-process">
+            <h2>How to Adopt a Kitten</h2>
+            <ol>
+                <li>Browse our available kittens.</li>
+                <li>Fill out our online adoption application.</li>
+                <li>Meet your kitten and complete the adoption.</li>
+            </ol>
+            <a href="#" class="cta-button">Start the Adoption Process</a>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us">
+            <h2>About Our Shelter</h2>
+            <p>Our shelter is dedicated to rescuing, rehabilitating, and finding homes for kittens in need. Learn more about our mission and the team behind our kitten rescue efforts.</p>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <p>Or contact us at:</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@kittencenter.org</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Kitten Rescue Center. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
+

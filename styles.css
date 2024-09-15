@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #222;
+}
+
+p {
+    font-weight: 300;
+    color: #555;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #6C63FF, #FFD369);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Kitten List Section */
+.kitten-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.profile-link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile-link:hover .kitten-img-container img {
+    transform: scale(1.05);
+}
+
+.profile-link:hover .profile-details {
+    color: #6C63FF;
+}
+
+.kitten-img-container {
+    display: inline-block;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    overflow: hidden;
+}
+
+.kitten-img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.kitten-img-container:hover img {
+    transform: scale(1.05);
+}
+
+/* Profile Details */
+.profile-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.profile-details h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.profile-details p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* CTA Button */
+.cta-button {
+    background-color: #6C63FF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFD369;
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .kitten-img-container {
+        max-width: 100%;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+}
+
