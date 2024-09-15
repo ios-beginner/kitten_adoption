@@ -101,6 +101,10 @@ p {
     margin-top: 0;
 }
 
+.profile-details p {
+    font-size: 1.2rem;
+}
+
 /* Gallery Section */
 .gallery {
     margin-top: 40px;
